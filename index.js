@@ -19,15 +19,15 @@ function payPorkBuns(money) {
 
 function calculatePorkBuns(money, cost) {
     // write code here below this line
-    
+    var feet=money/cost
+     return Math.floor(feet);
 
     // write code here above this line
-}
-
+}    
 function calculateChange(money, cost) {
     // write code here below this line
-    
-    
+    var porkBuns=money%cost
+    return porkBuns
     // write code here above this line
 }
 
